@@ -6,9 +6,6 @@ export default function Navbar() {
       <div className="navbar mt-12 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
-            <div className="btn btn-ghost lg:hidden">
- 
-            </div>
             <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li><a>Home</a></li>
               {/* <li><a>About</a><li></li> */}
