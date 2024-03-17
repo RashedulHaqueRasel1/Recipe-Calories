@@ -21,11 +21,14 @@ function App() {
 
   const [currentCook, setCurrentCook] = useState([]);
 
-  const [addCalorie, setAddCalories] = useState();
+  const [addCalorie, setAddCalories] = useState(0);
+
+  const [addTime, setTime] = useState(0);
 
 
 
 
+  // console.log(addCalorie)
 
 
 
@@ -74,8 +77,15 @@ function App() {
 
 
   const handelCalories = (calories) => {
-    const newCalories = addCalorie  + calories ;
+    // console.log(calories + 20)
+    const newCalories = calories  + addCalorie ;
     setAddCalories(newCalories)
+  }
+
+
+  const handelTime = (time) => {
+    const newTime = time + addTime ;
+    setTime(newTime)
   }
 
   // console.log(cook)
@@ -94,10 +104,10 @@ function App() {
 
 
 
-      <div className='lg:flex my-32 '>
+      <div className='lg:flex my-32 gap-4 '>
 
 
-        <div className='grid space-x-1 lg:grid-cols-2'>
+        <div className='grid  gap-4  lg:grid-cols-2'>
           {
             cards.map((card) => <Card
               key={card.id}
@@ -119,7 +129,10 @@ function App() {
           CurrentCookBtn={CurrentCookBtn}
           currentCook={currentCook}
           handelCalories={handelCalories}
+          handelTime={handelTime}
           addCalorie={addCalorie}
+          addTime={addTime}
+          
         ></SideBar>
 
 

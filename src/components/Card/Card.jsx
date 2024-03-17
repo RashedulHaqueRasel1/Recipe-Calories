@@ -4,12 +4,12 @@ import { AiTwotoneFire } from "react-icons/ai";
 export default function Card({ card, handleCookBtn, notify}) {
     // console.log(notify)
     const { recipe_image, recipe_name, short_description, ingredients , preparing_time , calories } = card;
-    return (
-        <div className="w-3/5">
+    return ( 
+        <div className="w-3/5  ">
 
 
 
-            <div className="card w-[370px]  bg-slate-300  rounded-2xl shadow-xl">
+            <div className="card w-[370px] h-[700px] border-2 border-sky-500 bg-slate-300  rounded-2xl shadow-xl">
                 <figure>
                     <img src={recipe_image} className="rounded-xl h-[200px]" alt="Food" />
                 </figure>
