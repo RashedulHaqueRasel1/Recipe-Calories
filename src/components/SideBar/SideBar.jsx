@@ -42,8 +42,13 @@ export default function SideBar({ cook, handlePreparingBtn, CurrentCookBtn, curr
                         <td >{cook.recipe_name}</td>
                         <td >{cook.preparing_time}  minutes</td>
                         <td >{cook.calories} calories</td>
-                        <button onClick={() => { handlePreparingBtn(cook.id); CurrentCookBtn(cook); handelCalories(cook.calories); handelTime(cook.preparing_time) }} className="btn  mt-2 bg-[#0BE58A] px-[18px] text-[#150B2B] rounded-3xl  font-semibold    hover:bg-transparent hover:border-[#FF4240] text-[16px]  ">Preparing</button>
+                        <div>
+                        <button onClick={() => { handlePreparingBtn(cook.id); CurrentCookBtn(cook); handelCalories(cook.calories); handelTime(cook.preparing_time) }} className="btn  mt-2 bg-[#0BE58A] px-[18px] text-[#150B2B] rounded-3xl  font-semibold    hover:bg-transparent hover:border-[#FF4240] text-[16px]    ">Preparing</button>
+                        </div>
+                        
                       </tr>
+                      
+                      
 
 
 

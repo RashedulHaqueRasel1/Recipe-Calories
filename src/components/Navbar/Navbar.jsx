@@ -19,7 +19,7 @@ export default function Navbar() {
         </div>
         <div className="navbar-end">
           <div className="form-control mr-4">
-            <label className="input hidden input-bordered bg-slate-300  rounded-2xl lg:flex items-center gap-2">
+            <label className="input hidden hover:input-bordered bg-slate-300  rounded-2xl lg:flex items-center gap-2">
             <IoSearchOutline />
               <input type="text" className="grow" placeholder="Search" />
             </label>
