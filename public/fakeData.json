@@ -1,0 +1,87 @@
+
+[
+    {
+      "recipe_image": "https://i.ibb.co/vkKyXyX/spag.jpg",
+      "id": 1,
+      "recipe_name": "Chicken Teriyaki",
+      "short_description": "A classic Japanese dish featuring tender chicken glazed.",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml soy sauce",
+        "200 g basil leaf",
+        "400 g mushroom"
+      ],
+      "preparing_time": "30",
+      "calories": "320"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/sqKCJ1F/authentic-italian-pasta.jpg",
+      "id": 2,
+      "recipe_name": "Spaghetti Bolognese",
+      "short_description": "An Italian favorite with al dente spaghetti topped.",
+      "ingredients": [
+        "400 g spaghetti",
+        "300 g ground beef",
+        "500 ml tomato sauce",
+        "1 onion, diced"
+      ],
+      "preparing_time": "45",
+      "calories": "420"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/hfVLcWJ/17-PAIR2-article-Large.jpg",
+      "id": 3,
+      "recipe_name": "Caesar Salad",
+      "short_description": "A classic salad featuring crisp romaine lettuce.",
+      "ingredients": [
+        "1 head romaine lettuce",
+        "100 g croutons",
+        "50 g grated Parmesan cheese",
+        "1/2 cup Caesar dressing"
+      ],
+      "preparing_time": "20",
+      "calories": "250"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/8r411Y8/fried-vegetables-with-sauce-pan.jpg",
+      "id": 4,
+      "recipe_name": "Vegetable Stir Fry",
+      "short_description": "A colorful and healthy dish packed with assorted vegetables.",
+      "ingredients": [
+        "200 g broccoli florets",
+        "150 g bell peppers, sliced",
+        "100 g carrots, julienned",
+        "150 g snap peas"
+      ],
+      "preparing_time": "25",
+      "calories": "180"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/ZmXYWcn/spinach-quiche-recipe-1646148285.jpg",
+      "id": 5,
+      "recipe_name": "Spinach Quiche",
+      "short_description": "A delightful savory pie filled with creamy spinach.",
+      "ingredients": [
+        "1 pie crust",
+        "200 g spinach",
+        "100 g grated Gruyere cheese",
+        "4 eggs"
+      ],
+      "preparing_time": "50",
+      "calories": "320"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/8m9Y31D/image.jpg",
+      "id": 6,
+      "recipe_name": "Grilled Salmon",
+      "short_description": "Deliciously grilled salmon fillets seasoned.",
+      "ingredients": [
+        "4 salmon fillets",
+        "2 tbsp olive oil",
+        "1 tsp dried dill",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "15",
+      "calories": "280"
+    }
+  ]
