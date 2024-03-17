@@ -7,18 +7,10 @@ export default function Navbar() {
 
       <div className="navbar mt-12 mx-auto">
         <div className="navbar-start">
-          <div className="dropdown">
-            <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Home</a></li>
-              {/* <li><a>About</a><li></li> */}
-              <li><a>Destination</a></li>
-              <li><a>Search</a></li>
-            </ul>
-          </div>
           <a className="text-[#150B2B] font-extrabold text-2xl lg:text-4xl">Recipe Calories</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 ">
+          <ul className="menu menu-horizontal px-1 text-[18px]">
             <li><a className="text-[#030712]">Home</a></li>
             <li><a className="text-[#030712]">Recipes</a></li>
             <li><a className="text-[#030712]">About</a></li>

@@ -5,13 +5,13 @@ export default function CurrentlyCooking({ currentCook, addCalorie, addTime }) {
     return (
         <div>
 
-            <h1 className="text-xl font-bold mt-12">Currently cooking: {currentCook.length}</h1>
+            <h1 className="text-3xl font-bold mt-6">Currently cooking: {currentCook.length}</h1>
 
             <div className="overflow-x-auto mt-6 bg-white rounded-3xl">
                 <table className="table bg-slate-400">
 
                     <thead>
-                        <tr>
+                        <tr className="text-[18px]">
                             <th></th>
                             <th>Name</th>
                             <th>Time</th>
@@ -26,7 +26,7 @@ export default function CurrentlyCooking({ currentCook, addCalorie, addTime }) {
                                     return (
 
 
-                                        <tr key={cook.id}>
+                                        <tr  className=" text-[16px]   " key={cook.id}>
 
                                             <th>{index + 1}</th>
                                             <td>{cook.recipe_name}</td>
@@ -49,9 +49,9 @@ export default function CurrentlyCooking({ currentCook, addCalorie, addTime }) {
 
             </div>
 
-            <div className="mt-6">
-                <h1>Total Time : {addTime} minutes</h1>
-                <h1>Total calories : {addCalorie} calories</h1>
+            <div className="mt-6 text-2xl font-semibold">
+                <h1 className="">Total Time = {addTime} minutes</h1>
+                <h1 className=" ">Total calories = {addCalorie} calories</h1>
             </div>
 
 
